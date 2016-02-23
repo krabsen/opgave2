@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>jQuery Mobile: Demos and Documentation</title>
+        <link rel="stylesheet"  href="jquery_mobil/demos/jquery.mobile-1.0.min.css" />
+        <link rel="stylesheet" href="jquery_mobil/demos/docs/_assets/css/jqm-docs.css" />
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <script src="jquery_mobil/demos/jquery.js"></script>
+        <script src="jquery_mobil/demos/experiments/themeswitcher/jquery.mobile.themeswitcher.js"></script>
+        <script src="jquery_mobil/demos/docs/_assets/js/jqm-docs.js"></script>
+        <script src="jquery_mobil/demos/jquery.mobile-1.0.min.js"></script>
+    </head>
+    <body>
+        <div data-role="page" id="page" data-theme="a">
+            <fieldset>
+                    <div data-role="fieldcontain">
+                        <label for="username">Enter your username:</label>
+                        <input type="text" value="" name="username" id="username"/>
+                    </div>                                  
+                    <div data-role="fieldcontain">                                      
+                        <label for="password">Enter your password:</label>
+                        <input type="password" value="" name="password" id="password"/> 
+                    </div>
+                    <input type="submit" data-theme="b" name="submit" id="submit" value="Submit">
+                </fieldset>
+            <div data-role="footer" data-position="fixed" data-id="nav">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="galleri.html">Galleri</a></li>
+                        <li><a class="ui-btn-active" href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>
